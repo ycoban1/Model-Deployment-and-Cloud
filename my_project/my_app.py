@@ -2,6 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 
+img = Image.open("car_image.jpg")
+st.image(img, width=500)
 
 st.sidebar.title('Car Price Prediction')
 html_temp = """
