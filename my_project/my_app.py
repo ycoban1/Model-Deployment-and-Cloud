@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@ycoban1 
-richardclarusway
-/
-project_solution
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-project_solution/my_app.py /
-@richardclarusway
-richardclarusway project
-Latest commit 386ef4b 3 days ago
- History
- 1 contributor
-60 lines (41 sloc)  1.7 KB
-
-
 import streamlit as st
 import pickle
 import pandas as pd
@@ -86,17 +57,3 @@ st.subheader("Press predict if configuration is okay")
 if st.button("Predict"):
     prediction = model.predict(df)
     st.success("The estimated price of your car is €{}. ".format(int(prediction[0])))
-    
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
