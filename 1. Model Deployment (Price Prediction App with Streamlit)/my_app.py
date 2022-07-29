@@ -32,7 +32,7 @@ km=st.sidebar.number_input("Km:",min_value=0, step=1000)
 hp_kW=st.sidebar.number_input("HP:",min_value=0, step=10)
 
 import pickle
-filename = 'autoscout_model'
+filename = 'autoscout_lasso_model'
 model = pickle.load(open(filename, 'rb'))
 
 my_dict = {
